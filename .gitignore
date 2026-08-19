@@ -1,0 +1,25 @@
+# Local publish tool and artifacts
+publish.ps1
+*.zip
+
+# Internal activity metadata (not part of the published project)
+activity/
+
+# Local user data / runtime artifacts
+.codex/
+work/
+*.log
+*.tmp
+install-result.json
+launch-result.json
+installed.json
+diagnostic-*.txt
+
+# Windows junk
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.bak
+
+# macOS junk
+.DS_Store
